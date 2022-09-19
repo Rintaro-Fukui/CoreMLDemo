@@ -1,0 +1,19 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "--",
+  "MLModelCreatorDefinedKey" : {
+    "target" : "label",
+    "com.apple.coreml.model.preview.type" : "activityClassifier",
+    "com.apple.createml.version" : "12.6.0",
+    "com.apple.createml.app.tag" : "99.2",
+    "session_id" : "session_id",
+    "max_iterations" : "10",
+    "version" : "2",
+    "type" : "activity_classifier",
+    "features" : "acceleration_x,acceleration_y,acceleration_z,attitude_pitch,attitude_roll,attitude_yaw,rotation_x,rotation_y,rotation_z",
+    "prediction_window" : "100",
+    "com.apple.createml.app.version" : "4.0"
+  },
+  "MLModelAuthorKey" : "Rintaro Fukui",
+  "MLModelLicenseKey" : "--"
+}

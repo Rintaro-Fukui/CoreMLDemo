@@ -1,0 +1,48 @@
+{
+  "Outputs" : {
+    "label" : {
+      "MLFeatureShortDescription" : "Class label of top prediction"
+    },
+    "stateOut" : {
+      "MLFeatureShortDescription" : "LSTM state output"
+    },
+    "labelProbability" : {
+      "MLFeatureShortDescription" : "Activity prediction probabilities"
+    }
+  },
+  "Inputs" : {
+    "acceleration_y" : {
+      "MLFeatureShortDescription" : "acceleration_y window input"
+    },
+    "attitude_yaw" : {
+      "MLFeatureShortDescription" : "attitude_yaw window input"
+    },
+    "attitude_roll" : {
+      "MLFeatureShortDescription" : "attitude_roll window input"
+    },
+    "rotation_z" : {
+      "MLFeatureShortDescription" : "rotation_z window input"
+    },
+    "rotation_y" : {
+      "MLFeatureShortDescription" : "rotation_y window input"
+    },
+    "acceleration_z" : {
+      "MLFeatureShortDescription" : "acceleration_z window input"
+    },
+    "rotation_x" : {
+      "MLFeatureShortDescription" : "rotation_x window input"
+    },
+    "attitude_pitch" : {
+      "MLFeatureShortDescription" : "attitude_pitch window input"
+    },
+    "acceleration_x" : {
+      "MLFeatureShortDescription" : "acceleration_x window input"
+    },
+    "stateIn" : {
+      "MLFeatureShortDescription" : "LSTM state input"
+    }
+  },
+  "TrainingInputs" : {
+
+  }
+}
