@@ -12,16 +12,15 @@ import CoreML
 struct ContentView: View {
     
     @ObservedObject var mlModel = MyActivityClassifier_()
+    var output_ = mlModel.output
+    var mlPred = output_[0]
+    var (label_, percentage_) = mlPred
+    var mlPred1 = output_[1]
+    var (label1_, percentage1_) = mlPred1
     
     var body: some View {
         VStack {
-            
-            var output_ = mlModel.output
-            var mlPred = output_[0]
-            var (label_, percentage_) = mlPred
-            var mlPred1 = output_[1]
-            var (label1_, percentage1_) = mlPred1
-            
+         
             HStack {
                 Text(String(label_))
                 Text(String(percentage_))
